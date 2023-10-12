@@ -1,0 +1,44 @@
+{
+  "name": "solid-app",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start",
+    "plop": "plop"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@remotion/eslint-config": "^4.0.48",
+    "@remotion/tailwind": "^4.0.48",
+    "@types/node": "^18.17.5",
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^3.9.2",
+    "esbuild": "^0.14.54",
+    "next-auth": "^4.23.1",
+    "plop": "^4.0.0",
+    "postcss": "^8.4.31",
+    "solid-start-node": "^0.3.6",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^4.9.5",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@auth/core": "^0.5.1",
+    "@remotion/bundler": "^4.0.48",
+    "@remotion/cli": "^4.0.48",
+    "@remotion/player": "^4.0.48",
+    "@remotion/zod-types": "^4.0.48",
+    "@solid-auth/base": "^2.0.3",
+    "@solidjs/meta": "^0.28.6",
+    "@solidjs/router": "^0.8.3",
+    "microcms-js-sdk": "^2.6.1",
+    "node-html-parser": "^6.1.10",
+    "remotion": "^4.0.48",
+    "solid-js": "^1.7.12",
+    "solid-start": "^0.3.6",
+    "zod": "^3.22.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
